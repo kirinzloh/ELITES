@@ -1,0 +1,3749 @@
+fileFormatVersion: 2
+guid: eca4c1091011038469870bf614dd00d1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wii - Castlevania Adventure ReBirth - Christopher Belmont_0
+    21300002: Wii - Castlevania Adventure ReBirth - Christopher Belmont_1
+    21300004: Wii - Castlevania Adventure ReBirth - Christopher Belmont_2
+    21300006: Wii - Castlevania Adventure ReBirth - Christopher Belmont_3
+    21300008: Wii - Castlevania Adventure ReBirth - Christopher Belmont_4
+    21300010: Wii - Castlevania Adventure ReBirth - Christopher Belmont_5
+    21300012: Wii - Castlevania Adventure ReBirth - Christopher Belmont_6
+    21300014: Wii - Castlevania Adventure ReBirth - Christopher Belmont_7
+    21300016: Wii - Castlevania Adventure ReBirth - Christopher Belmont_8
+    21300018: Wii - Castlevania Adventure ReBirth - Christopher Belmont_9
+    21300020: Wii - Castlevania Adventure ReBirth - Christopher Belmont_10
+    21300022: Wii - Castlevania Adventure ReBirth - Christopher Belmont_11
+    21300024: Wii - Castlevania Adventure ReBirth - Christopher Belmont_12
+    21300026: Wii - Castlevania Adventure ReBirth - Christopher Belmont_13
+    21300028: Wii - Castlevania Adventure ReBirth - Christopher Belmont_14
+    21300030: Wii - Castlevania Adventure ReBirth - Christopher Belmont_15
+    21300032: Wii - Castlevania Adventure ReBirth - Christopher Belmont_16
+    21300034: Wii - Castlevania Adventure ReBirth - Christopher Belmont_17
+    21300036: Wii - Castlevania Adventure ReBirth - Christopher Belmont_18
+    21300038: Wii - Castlevania Adventure ReBirth - Christopher Belmont_19
+    21300040: Wii - Castlevania Adventure ReBirth - Christopher Belmont_20
+    21300042: Wii - Castlevania Adventure ReBirth - Christopher Belmont_21
+    21300044: Wii - Castlevania Adventure ReBirth - Christopher Belmont_22
+    21300046: Wii - Castlevania Adventure ReBirth - Christopher Belmont_23
+    21300048: Wii - Castlevania Adventure ReBirth - Christopher Belmont_24
+    21300050: Wii - Castlevania Adventure ReBirth - Christopher Belmont_25
+    21300052: walk1
+    21300054: walk2
+    21300056: walk3
+    21300058: walk4
+    21300060: walk5
+    21300062: walk6
+    21300064: Wii - Castlevania Adventure ReBirth - Christopher Belmont_32
+    21300066: Wii - Castlevania Adventure ReBirth - Christopher Belmont_33
+    21300068: Wii - Castlevania Adventure ReBirth - Christopher Belmont_34
+    21300070: Wii - Castlevania Adventure ReBirth - Christopher Belmont_35
+    21300072: Wii - Castlevania Adventure ReBirth - Christopher Belmont_36
+    21300074: Wii - Castlevania Adventure ReBirth - Christopher Belmont_37
+    21300076: Wii - Castlevania Adventure ReBirth - Christopher Belmont_38
+    21300078: Wii - Castlevania Adventure ReBirth - Christopher Belmont_39
+    21300080: Wii - Castlevania Adventure ReBirth - Christopher Belmont_40
+    21300082: Wii - Castlevania Adventure ReBirth - Christopher Belmont_41
+    21300084: Wii - Castlevania Adventure ReBirth - Christopher Belmont_42
+    21300086: Wii - Castlevania Adventure ReBirth - Christopher Belmont_43
+    21300088: Wii - Castlevania Adventure ReBirth - Christopher Belmont_44
+    21300090: Wii - Castlevania Adventure ReBirth - Christopher Belmont_45
+    21300092: Wii - Castlevania Adventure ReBirth - Christopher Belmont_46
+    21300094: Wii - Castlevania Adventure ReBirth - Christopher Belmont_47
+    21300096: Wii - Castlevania Adventure ReBirth - Christopher Belmont_48
+    21300098: Wii - Castlevania Adventure ReBirth - Christopher Belmont_49
+    21300100: Wii - Castlevania Adventure ReBirth - Christopher Belmont_50
+    21300102: Wii - Castlevania Adventure ReBirth - Christopher Belmont_51
+    21300104: Wii - Castlevania Adventure ReBirth - Christopher Belmont_52
+    21300106: Wii - Castlevania Adventure ReBirth - Christopher Belmont_53
+    21300108: Wii - Castlevania Adventure ReBirth - Christopher Belmont_54
+    21300110: Wii - Castlevania Adventure ReBirth - Christopher Belmont_55
+    21300112: Wii - Castlevania Adventure ReBirth - Christopher Belmont_56
+    21300114: Wii - Castlevania Adventure ReBirth - Christopher Belmont_57
+    21300116: Wii - Castlevania Adventure ReBirth - Christopher Belmont_58
+    21300118: Wii - Castlevania Adventure ReBirth - Christopher Belmont_59
+    21300120: Wii - Castlevania Adventure ReBirth - Christopher Belmont_60
+    21300122: Wii - Castlevania Adventure ReBirth - Christopher Belmont_61
+    21300124: Wii - Castlevania Adventure ReBirth - Christopher Belmont_62
+    21300126: Wii - Castlevania Adventure ReBirth - Christopher Belmont_63
+    21300128: Wii - Castlevania Adventure ReBirth - Christopher Belmont_64
+    21300130: Wii - Castlevania Adventure ReBirth - Christopher Belmont_65
+    21300132: Wii - Castlevania Adventure ReBirth - Christopher Belmont_66
+    21300134: Wii - Castlevania Adventure ReBirth - Christopher Belmont_67
+    21300136: Wii - Castlevania Adventure ReBirth - Christopher Belmont_68
+    21300138: Wii - Castlevania Adventure ReBirth - Christopher Belmont_69
+    21300140: Wii - Castlevania Adventure ReBirth - Christopher Belmont_70
+    21300142: Wii - Castlevania Adventure ReBirth - Christopher Belmont_71
+    21300144: Wii - Castlevania Adventure ReBirth - Christopher Belmont_72
+    21300146: Wii - Castlevania Adventure ReBirth - Christopher Belmont_73
+    21300148: Wii - Castlevania Adventure ReBirth - Christopher Belmont_74
+    21300150: Wii - Castlevania Adventure ReBirth - Christopher Belmont_75
+    21300152: Wii - Castlevania Adventure ReBirth - Christopher Belmont_76
+    21300154: Wii - Castlevania Adventure ReBirth - Christopher Belmont_77
+    21300156: Wii - Castlevania Adventure ReBirth - Christopher Belmont_78
+    21300158: Wii - Castlevania Adventure ReBirth - Christopher Belmont_79
+    21300160: Wii - Castlevania Adventure ReBirth - Christopher Belmont_80
+    21300162: Wii - Castlevania Adventure ReBirth - Christopher Belmont_81
+    21300164: Wii - Castlevania Adventure ReBirth - Christopher Belmont_82
+    21300166: Wii - Castlevania Adventure ReBirth - Christopher Belmont_83
+    21300168: Wii - Castlevania Adventure ReBirth - Christopher Belmont_84
+    21300170: Wii - Castlevania Adventure ReBirth - Christopher Belmont_85
+    21300172: Wii - Castlevania Adventure ReBirth - Christopher Belmont_86
+    21300174: Wii - Castlevania Adventure ReBirth - Christopher Belmont_87
+    21300176: Wii - Castlevania Adventure ReBirth - Christopher Belmont_88
+    21300178: Wii - Castlevania Adventure ReBirth - Christopher Belmont_89
+    21300180: Wii - Castlevania Adventure ReBirth - Christopher Belmont_90
+    21300182: Wii - Castlevania Adventure ReBirth - Christopher Belmont_91
+    21300184: Wii - Castlevania Adventure ReBirth - Christopher Belmont_92
+    21300186: Wii - Castlevania Adventure ReBirth - Christopher Belmont_93
+    21300188: Wii - Castlevania Adventure ReBirth - Christopher Belmont_94
+    21300190: Wii - Castlevania Adventure ReBirth - Christopher Belmont_95
+    21300192: Wii - Castlevania Adventure ReBirth - Christopher Belmont_96
+    21300194: Wii - Castlevania Adventure ReBirth - Christopher Belmont_97
+    21300196: Wii - Castlevania Adventure ReBirth - Christopher Belmont_98
+    21300198: Wii - Castlevania Adventure ReBirth - Christopher Belmont_99
+    21300200: Wii - Castlevania Adventure ReBirth - Christopher Belmont_100
+    21300202: Wii - Castlevania Adventure ReBirth - Christopher Belmont_101
+    21300204: Wii - Castlevania Adventure ReBirth - Christopher Belmont_102
+    21300206: Wii - Castlevania Adventure ReBirth - Christopher Belmont_103
+    21300208: Wii - Castlevania Adventure ReBirth - Christopher Belmont_104
+    21300210: Wii - Castlevania Adventure ReBirth - Christopher Belmont_105
+    21300212: Wii - Castlevania Adventure ReBirth - Christopher Belmont_106
+    21300214: Wii - Castlevania Adventure ReBirth - Christopher Belmont_107
+    21300216: Wii - Castlevania Adventure ReBirth - Christopher Belmont_108
+    21300218: Wii - Castlevania Adventure ReBirth - Christopher Belmont_109
+    21300220: Wii - Castlevania Adventure ReBirth - Christopher Belmont_110
+    21300222: Wii - Castlevania Adventure ReBirth - Christopher Belmont_111
+    21300224: Wii - Castlevania Adventure ReBirth - Christopher Belmont_112
+    21300226: Wii - Castlevania Adventure ReBirth - Christopher Belmont_113
+    21300228: Wii - Castlevania Adventure ReBirth - Christopher Belmont_114
+    21300230: Wii - Castlevania Adventure ReBirth - Christopher Belmont_115
+    21300232: Wii - Castlevania Adventure ReBirth - Christopher Belmont_116
+    21300234: Wii - Castlevania Adventure ReBirth - Christopher Belmont_117
+    21300236: Wii - Castlevania Adventure ReBirth - Christopher Belmont_118
+    21300238: Wii - Castlevania Adventure ReBirth - Christopher Belmont_119
+    21300240: Wii - Castlevania Adventure ReBirth - Christopher Belmont_120
+    21300242: Wii - Castlevania Adventure ReBirth - Christopher Belmont_121
+    21300244: Wii - Castlevania Adventure ReBirth - Christopher Belmont_122
+    21300246: Wii - Castlevania Adventure ReBirth - Christopher Belmont_123
+    21300248: Wii - Castlevania Adventure ReBirth - Christopher Belmont_124
+    21300250: Wii - Castlevania Adventure ReBirth - Christopher Belmont_125
+    21300252: Wii - Castlevania Adventure ReBirth - Christopher Belmont_126
+    21300254: Wii - Castlevania Adventure ReBirth - Christopher Belmont_127
+    21300256: Wii - Castlevania Adventure ReBirth - Christopher Belmont_128
+    21300258: Wii - Castlevania Adventure ReBirth - Christopher Belmont_129
+    21300260: Wii - Castlevania Adventure ReBirth - Christopher Belmont_130
+    21300262: Wii - Castlevania Adventure ReBirth - Christopher Belmont_131
+    21300264: Wii - Castlevania Adventure ReBirth - Christopher Belmont_132
+    21300266: Wii - Castlevania Adventure ReBirth - Christopher Belmont_133
+    21300268: Wii - Castlevania Adventure ReBirth - Christopher Belmont_134
+    21300270: Wii - Castlevania Adventure ReBirth - Christopher Belmont_135
+    21300272: Wii - Castlevania Adventure ReBirth - Christopher Belmont_136
+    21300274: Wii - Castlevania Adventure ReBirth - Christopher Belmont_137
+    21300276: Wii - Castlevania Adventure ReBirth - Christopher Belmont_138
+    21300278: Wii - Castlevania Adventure ReBirth - Christopher Belmont_139
+    21300280: Wii - Castlevania Adventure ReBirth - Christopher Belmont_140
+    21300282: Wii - Castlevania Adventure ReBirth - Christopher Belmont_141
+    21300284: Wii - Castlevania Adventure ReBirth - Christopher Belmont_142
+    21300286: Wii - Castlevania Adventure ReBirth - Christopher Belmont_143
+    21300288: Wii - Castlevania Adventure ReBirth - Christopher Belmont_144
+    21300290: Wii - Castlevania Adventure ReBirth - Christopher Belmont_145
+    21300292: Wii - Castlevania Adventure ReBirth - Christopher Belmont_146
+    21300294: Wii - Castlevania Adventure ReBirth - Christopher Belmont_147
+    21300296: Wii - Castlevania Adventure ReBirth - Christopher Belmont_148
+    21300298: Wii - Castlevania Adventure ReBirth - Christopher Belmont_149
+    21300300: Wii - Castlevania Adventure ReBirth - Christopher Belmont_150
+    21300302: Wii - Castlevania Adventure ReBirth - Christopher Belmont_151
+    21300304: Wii - Castlevania Adventure ReBirth - Christopher Belmont_152
+    21300306: Wii - Castlevania Adventure ReBirth - Christopher Belmont_153
+    21300308: Wii - Castlevania Adventure ReBirth - Christopher Belmont_154
+    21300310: Wii - Castlevania Adventure ReBirth - Christopher Belmont_155
+    21300312: Wii - Castlevania Adventure ReBirth - Christopher Belmont_156
+    21300314: Wii - Castlevania Adventure ReBirth - Christopher Belmont_157
+    21300316: Wii - Castlevania Adventure ReBirth - Christopher Belmont_158
+    21300318: Wii - Castlevania Adventure ReBirth - Christopher Belmont_159
+    21300320: Wii - Castlevania Adventure ReBirth - Christopher Belmont_160
+    21300322: Wii - Castlevania Adventure ReBirth - Christopher Belmont_161
+    21300324: Wii - Castlevania Adventure ReBirth - Christopher Belmont_162
+    21300326: Wii - Castlevania Adventure ReBirth - Christopher Belmont_163
+    21300328: Wii - Castlevania Adventure ReBirth - Christopher Belmont_164
+    21300330: Wii - Castlevania Adventure ReBirth - Christopher Belmont_165
+    21300332: Wii - Castlevania Adventure ReBirth - Christopher Belmont_166
+    21300334: Wii - Castlevania Adventure ReBirth - Christopher Belmont_167
+    21300336: Wii - Castlevania Adventure ReBirth - Christopher Belmont_168
+    21300338: Wii - Castlevania Adventure ReBirth - Christopher Belmont_169
+    21300340: Wii - Castlevania Adventure ReBirth - Christopher Belmont_170
+    21300342: Wii - Castlevania Adventure ReBirth - Christopher Belmont_171
+    21300344: Wii - Castlevania Adventure ReBirth - Christopher Belmont_172
+    21300346: Wii - Castlevania Adventure ReBirth - Christopher Belmont_173
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 487
+        width: 33
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf5a55250df044e973e50598e5466d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 462
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0579e33ae511b4b4d84dcdc360797c9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 465
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f658232d1012de4b810627f6f8d3e72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 466
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a86e3a94571fa6448f88f9d0d13098f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 462
+        width: 15
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed33e1986470ec540a0beb4d12c07fe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 462
+        width: 20
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e03ab5b1d56e4c9a13a695c87d7a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 462
+        width: 22
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3845b884a212a438fc33b01aeb1f23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 462
+        width: 20
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2b288274768584db14e6e1da6ce592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 496
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b79bd6520da474da7558f48d1be153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 462
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5bb1e31f779f443a27101b4c536ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 462
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d68d48ac9a144cbc99adb16befb75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 462
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85173f73150092047a488d61d3ede1a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 462
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d873a53a539e4988094da51bb5458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 462
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408979c7293636b419dd539a781493ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 462
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76320b9db2537584595cea60c20b1c9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 478
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105eba6282d364f45940dbc7d15fab65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 470
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f830372c48e70a46a6c11fb585ffc97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_17
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 404
+        width: 18
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c09832e0c981488e6b0a6918af25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 432
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cfbb2e326691d4bbf674f0990c5fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 458
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a26b3a230dd9043b01e48f2e1b1a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 415
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b051af067b99bd47a6a30c18ac6d628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 415
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac563ca8a19c3824f9ed0f292ecdf870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 415
+        width: 19
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea081e0cad23a47ac2360b9bb2063f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 450
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10de4486f2c478041ba6625ea2d8bf6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 416
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef86bb7c9d68e746912f8ddcf64d642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 416
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de018c15aba55f54a9f76cafa8506ba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1235d175bf3db7e4eaab778fd4ed216f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 412
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ba276ae97ad004cbc7279b33e034c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 412
+        width: 14
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e345a158a8a1db04295b62735148853b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 412
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81927ed846be8469265fcbe4585191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 412
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464774316e128114881703fee490c4d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 412
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c8a96b5204c04d84f9b8e4c45a0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_32
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 412
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2feadd1c9e3214bb0a27e88f1181f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 417
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b5e87d578f9fd4480f1db86bd22e29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_34
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 447
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bc5a54576c2d345bf86b4a5102558a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 442
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42986910c9875c44cb2e9689306a8f41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 378
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7854c55b07428243b58623f7330c335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 362
+        width: 17
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8662367e41241be4d8842cb047283437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 321
+        width: 23
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3b52e2fcdff9b4596dd54ee80babc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 367
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e5dc17ec6c1954590503b3b9f4e343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_40
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 362
+        width: 16
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4e8c2009a3ed74baf32e35c14db6c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 362
+        width: 21
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ecbb4e0b330f49bb04edaa68c04be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_42
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 367
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3477f97857547d47aa89187c5f3860a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 362
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b92ae88f6dd0444834e459dc54aa63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 362
+        width: 17
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8263e7ddaefa0944f9712d2de2f59469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_45
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 367
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe76324856dbe243a4522b67db01bbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_46
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 362
+        width: 15
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45062863f28ce7b4b90d6ae815ae00f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_47
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 367
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c958556225ce4699cbfa5fa0104d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_48
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 362
+        width: 15
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7e871080fe76b43a0efab875452e19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_49
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 371
+        width: 15
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1f159a91f9aed4fb40c55b74010c8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 332
+        width: 17
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63ff3883c6dc14783b5d371cb1d393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 312
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf5259355b638a4396d58b300ddc31b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 316
+        width: 17
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f6b66367edc2f46995451f375a99fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_53
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 312
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed578b89ac5bba4699d56942b07b9d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 312
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56b88049f17244fafcba5292513781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 321
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ce86b9f0ceb4944bf4fb7657d52cdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_56
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 316
+        width: 17
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8843b7dc8d99ad24faca30798f44d74c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_57
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 312
+        width: 17
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5501046d4c7c474d8d7cadcc74702b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 312
+        width: 17
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d163da998e5c4984af0ac1a55cd0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_59
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 312
+        width: 18
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c5682b96a898488ecc4512a2e128c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_60
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 312
+        width: 17
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86542116861a9a4ba41955f6b5370d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_61
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 312
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedcd589423c1794daf2bf31584ad4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_62
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 335
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d992fa9cf4e023418ac609e4307eabf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 303
+        width: 32
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd5a3a1854517488ba4aa938ee6bba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_64
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 278
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9fc6aa27183b749b93a92d3bea6148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_65
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 278
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf35b479fa84c64b8cd50b33e04cb61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_66
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 278
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6932bd5c097604d9ad00f712051a50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_67
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 278
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ebb5b5b4214b744acd338a00b0ed5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_68
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 278
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db94560182dacf4ea066d231caf5a72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_69
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 278
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05fa3a25832a544fa82e7d691018a79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 285
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eaf5543d2cc164eb2a0857958cbc95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 285
+        width: 28
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369cb01f32bee65498be777f4ad2a76a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_72
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 287
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e77e03c7752a94290d05ed6af68bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_73
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 278
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27497f538555fa04bbccecbe16ee06b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_74
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 303
+        width: 27
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3038d5cd4de4214c8586d8b3ea96a3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_75
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 260
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bdb9590910175419d3e8e7616c0449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_76
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 283
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e1fc53e4114c64bb806059f35418cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_77
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 283
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1482cb8e66fbcea4da03a7d62e6a5b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_78
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2468e517e3f7241a6745e3efae30ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_79
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 226
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31259e144018786419e1bda75213ca72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_80
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 244
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3360db9ca312e2c43acc88da295ca674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 244
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8575f5769adddc64babd2a8817690dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_82
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 244
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c49add6814b648a3c452da76e22bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_83
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 244
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1850bcb7fb167334485b5bb209977cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_84
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 244
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6caf01d862b234b8697a4dffbe6eeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_85
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 244
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cd74f2a3a347a4f93f02af0aff60fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_86
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 244
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e1c968f5a86f54ea4c4fb1e7644da4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_87
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 244
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6cd22391d4444f90f1f52061d6ced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_88
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 244
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c843b82e7e6aad84295fb96ce6db5486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_89
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 244
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9cb86c1d5eba84089878fa85422a49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_90
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 244
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb24101cfb48b842a3de02ff1235155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 244
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0224b114c24dfa46bc4fdd2e053fffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_92
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 226
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8028e58dc231748be7286b5f90cbec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_93
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 200
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9e622fcf5ad3f43833d9d383092edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_94
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 210
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc02e2f17067dc8449b84f0733f8fa8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_95
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 210
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8d4e96502239459e63341bf4c5407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 210
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9fb18b3a671254c98546c9df1fb6fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_97
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 210
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dde1fd6cec09fb4cb2e303d538ba3f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_98
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 210
+        width: 17
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3577c308700c833408b652fd3be5e30b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_99
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 210
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6c00af74e84a4eafc702e49354a5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 210
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6459bd5f84c11e4db14e62f0062870e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_101
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 218
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34945a3a9a53100479c1428b38c2a6cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_102
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 218
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906e03775c767445acf87350f5dac6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_103
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 218
+        width: 25
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8118ed7e6cfb8dc498825dd851052273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_104
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 218
+        width: 25
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35a7ca4ed0401248a1b108e3c2bb161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_105
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 218
+        width: 25
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2f3db2821a7224a9851a17f3d5fad7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_106
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfabe2509029164f83e4ee9ccaf39e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_107
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 200
+        width: 30
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb43d4832c56b49b044ce3228ff543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_108
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 149
+        width: 15
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee8df9d046c235478bc568cef8d95c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_109
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 149
+        width: 20
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429fd34378e8534392dfb07ace1ed7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_110
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 149
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541cdbc57b092d84992407e01c16eeea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_111
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 164
+        width: 75
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65950649b51226646b95feb47a0db360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_112
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 158
+        width: 33
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f68dc84b38f8d4f827966ff8a23f17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_113
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 99
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3170825eedaa6a40a17c8fd348569fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_114
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 99
+        width: 14
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a646922c803f0bd47af024eecc3ad990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_115
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 99
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26bfab8584ffcd4b99a58f12c8e1012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_116
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c29ac3bf5ac28349812cfae49a426b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_117
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 130
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1982cdefe144d404db31f058fe53406d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_118
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 130
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ccd1d7a13cf94cbce51721b52e876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_119
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 130
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacf169f97951f04c937f20e55e7e73a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_120
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 128
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a4306222c3f041982b8774b737e21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_121
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 130
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ac530844b0a740a91d27aaba8ef97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_122
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 130
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4748174e77e56f541a6f27e76c3362e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_123
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 86
+        width: 41
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5911abaad121b448836be7902a8bad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_124
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 99
+        width: 115
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2a4b10033b904aa87cbefc5a1251d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_125
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 68
+        width: 25
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31412c509c2d55848b906be4977ba0bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_126
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 43
+        width: 54
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abab29d6c4376e647b89979093a691d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 101
+        width: 13
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b061727431ef2d418fef5fff4d50c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_128
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 116
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56fa9ce73a127440bfc3172ea069690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_129
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 116
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d441c7f830ded6149a49d529f8221987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_130
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 116
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaf16d9f554e5d40b5509e595f90068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_131
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 116
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016d9bcb646fc07468dc00859e93e77b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_132
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 116
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a8e07afa6238a46afc494c95058483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_133
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 49
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f804d2fe4a02ec54e85632e9b4945fd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_134
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 49
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00412a0d9740b1545a43604730e8f9c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_135
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 87
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b5f39f5388744fb2eb821cc3a9e6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 87
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eaa78eec327404c90618f91b0d3ef7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_137
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 87
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e08f279fa1d44aa2eb6374d9cd0df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_138
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 87
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00faa3dd3ef963d4db035ad9970749ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_139
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 87
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4789b0bd7eb7eff4f9dcd4f02c0b2acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_140
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 87
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb6c1376cfbc454fa6c2803629b1fe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_141
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 87
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c845d0892891814e8e49d042cb17c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_142
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 87
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff66023e5e2971a47aa8aa4c5fdefa68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_143
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 71
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b2743977e4bb144a014333e1d12905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_144
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 88
+        width: 28
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b8221e6dc12ee4da750649043b149e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_145
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 72
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35de373b8f266024ab7c7184029e3dfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_146
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 72
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad15177e7f65141b77b5426342ecf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_147
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 72
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f2f56233730b4796d80b50cb8ccc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_148
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 72
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d917ea12348454da3b11928a190f7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_149
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 72
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38000cf89fab0d42ac06be3ca3d7cfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_150
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 72
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2c24897b6b8b848b9ff2c74595ffb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_151
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 72
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69efa27417ff26546bdac56a6069c816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_152
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 58
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e2dafbf541e9d47af18fa3090cf236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_153
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 58
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b740e0d59fbbba2499fd0989d8bb1653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_154
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 58
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7614055a8bd1bce45b23720269851971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_155
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 58
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d690740864d061b47b5bc3a14cde506c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_156
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 58
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79477c046d50024dbd8ff7f9bf243bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_157
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 60
+        width: 44
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9593dad0ff226b4abbd2963ab398409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_158
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 51
+        width: 52
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3cf01aeffec1b4d95a42a034847b1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_159
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 42
+        width: 42
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d285ce238680a4d9d42aeac7879f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_160
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 36
+        width: 36
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aaf2efc9d9a644d8d61a55f28a734a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_161
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 25
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba7fa862c3f2dc4498bb8fed047d3df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_162
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 23
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02c39b835bf870499866c8746d07e9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_163
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 23
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e74657d10ec31b43936972b41a44203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_164
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 25
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9c1906f568ac4a8c62773a8822e66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_165
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 25
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946ec9e1a6db29d4a9db6aa476804c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_166
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 25
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77975025f2e662447897000645d95fec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_167
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 23
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c644ee221801f24b85e6d705937bdcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_168
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 25
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb532723939afd4092c2ce53021b9f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_169
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 25
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4fa4d454f8cad45b64b6a288a45541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_170
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 25
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146ce78f55504b4f89e298073cb1e9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_171
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 25
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9b23d31f0784e45aacafb76cfbd9b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_172
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 25
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11afcb5439dc554ab591c10b71b7f14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Castlevania Adventure ReBirth - Christopher Belmont_173
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 25
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f2b135f85549349a449ef73bbb3cbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 259fe1f3160a71142a99680950d9506a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

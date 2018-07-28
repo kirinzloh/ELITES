@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:ELITES/Assets/Assets/Animations.meta
 guid: 19acebe73f45ca945bdc22aeb118bc8a
+=======
+guid: 21bb807521acb6d4392abc4bd24b69e5
+>>>>>>> game_maps:ELITES/Assets/Assets/Animations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
