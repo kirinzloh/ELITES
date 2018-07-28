@@ -585,7 +585,6 @@ GameObject:
   - component: {fileID: 1707501427}
   - component: {fileID: 1707501426}
   - component: {fileID: 1707501425}
-  - component: {fileID: 1707501428}
   m_Layer: 5
   m_Name: ContinueBtn
   m_TagString: Untagged
@@ -651,7 +650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1707501428}
+      - m_Target: {fileID: 1762619425}
         m_MethodName: DisplayNextSentence
         m_Mode: 1
         m_Arguments:
@@ -698,21 +697,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1707501423}
   m_CullTransparentMesh: 0
---- !u!114 &1707501428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1707501423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d05d1e1b3fc74b4db3bc4a4600268e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: {fileID: 181123456}
-  dialogueText: {fileID: 852770606}
-  text_delay: 0.03
-  animator: {fileID: 1720244314}
 --- !u!1 &1720244310
 GameObject:
   m_ObjectHideFlags: 0
