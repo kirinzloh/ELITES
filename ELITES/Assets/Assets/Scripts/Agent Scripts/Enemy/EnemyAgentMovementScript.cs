@@ -11,11 +11,17 @@ public class EnemyAgentMovementScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
-		
-	}
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
         agent.SetDestination(player.position);
+    }
+
+    public void SetSpeed(float speed)
+    {
+        agent.speed = speed;
     }
 }

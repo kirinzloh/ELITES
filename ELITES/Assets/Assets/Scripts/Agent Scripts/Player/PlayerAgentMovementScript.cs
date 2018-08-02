@@ -5,13 +5,13 @@ using UnityEngine.AI;
 
 public class PlayerAgentMovementScript : MonoBehaviour {
 
-    private NavMeshAgent agent;
+    //private NavMeshAgent agent;
     private float movementSpeed = 2f;
 
     Vector3 movement;
 
     void Start () {
-        agent = GetComponent<NavMeshAgent>();
+        //agent = GetComponent<NavMeshAgent>();
         
     }
 

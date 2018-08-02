@@ -3,32 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemySpriteScript : MonoBehaviour {
+public class SpriteCloneScript : MonoBehaviour
+{
 
     Transform agent;
     NavMeshAgent nav;
-    public float yOffset;
+    public float zOffset;
     public float xOffset;
 
     Animator anim;
     Vector3 side;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         anim = GetComponent<Animator>();
         agent = GameObject.FindGameObjectWithTag("BlankEnemy").transform;
         nav = agent.GetComponent<NavMeshAgent>();
         agent.tag = "Enemy";
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     private void LateUpdate()
     {
-        transform.localPosition = new Vector3(agent.localPosition.x + xOffset, agent.localPosition.z + yOffset, -0.1f);
+        transform.localPosition = new Vector3(agent.localPosition.x + xOffset, 0.5f, agent.localPosition.z + zOffset);
         float h = nav.velocity.x;
         float v = nav.velocity.z;
 
