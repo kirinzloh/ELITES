@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSpriteScript : MonoBehaviour {
+public class PlayerSpriteMovementScript : MonoBehaviour {
 
     public Transform agent;
     public float yOffset;
