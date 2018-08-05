@@ -13,7 +13,8 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     private Queue<string> sentences;
-    
+    private Queue<string> names;
+
     // Use this for initialization
     void Awake()
     {
@@ -25,6 +26,7 @@ public class DialogueManager : MonoBehaviour
         {
             Instance = this;
             sentences = new Queue<string>();
+            names = new Queue<string>();
         }
     }
 
@@ -32,14 +34,19 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", true);
     
-        nameText.text = dialogue.name;
-
         sentences.Clear();
+        names.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
+
+        foreach (string name in dialogue.names)
+        {
+            names.Enqueue(name);
+        }
+
 
         DisplayNextSentence();
     }
@@ -48,9 +55,13 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentences.Count == 0)
         {
+            Debug.Log("Dialogue Ended");
             EndDialogue();
             return;
         }
+
+        string name = names.Dequeue();
+        nameText.text = name;
 
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
