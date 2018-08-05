@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
   - BlankEnemy
   - BlankSprite
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Enemy
+  - 
   - 
   - 
   - 
