@@ -36,4 +36,4 @@ sysinfo.txt
 *.unitypackage
 
 # Unity version
-ELITES/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/ProjectVersion.txt
