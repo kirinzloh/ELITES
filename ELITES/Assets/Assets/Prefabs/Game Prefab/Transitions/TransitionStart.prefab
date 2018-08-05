@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4476354450457128}
   - component: {fileID: 61235423779139798}
-  - component: {fileID: 114573535234164272}
+  - component: {fileID: 114796298620531766}
   m_Layer: 0
   m_Name: TransitionStart
   m_TagString: Untagged
@@ -34,13 +34,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1970488430997060}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 12.2016735, y: -28.3704, z: 2.311983}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: 8.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &61235423779139798
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -53,7 +53,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.15408012, y: -0.2560954}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -64,9 +64,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.29371566, y: 0.48780918}
   m_EdgeRadius: 0
---- !u!114 &114573535234164272
+--- !u!114 &114796298620531766
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitioningGameObject: {fileID: 0}
-  transitionType: 2
+  transitionType: 0
   destinationTransform: {fileID: 0}
-  transitionWhen: 1
+  transitionWhen: 0
   resetInputValuesOnTransition: 1

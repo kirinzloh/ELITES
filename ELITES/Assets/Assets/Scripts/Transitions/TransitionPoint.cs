@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TransitionPoint : MonoBehaviour
 {
-
+    private readonly Vector3[] locations;
+    [System.Serializable]
     // code from 2D Gamekit (Unity tutorial)
     public enum TransitionType
     {
@@ -13,8 +14,9 @@ public class TransitionPoint : MonoBehaviour
 
     public enum TransitionLocation
     {
-        HQ, Village, OddballHouse, OddballBasement, OddballBoss, Nightmare, MonsterNest
+        HQ, Village, OddballHouse, OddballBasement, OddballBoss, Nightmare, MonsterNest,
     }
+
 
 
     public enum TransitionWhen
@@ -31,7 +33,9 @@ public class TransitionPoint : MonoBehaviour
     //[Tooltip("The tag of the SceneTransitionDestination script in the scene being transitioned to.")]
     //public SceneTransitionDestination.DestinationTag transitionDestinationTag;
     //[Tooltip("The destination in this scene that the transitioning gameobject will be teleported.")]
-    public TransitionPoint destinationTransform;
+    //public TransitionPoint destinationTransform;
+    [Tooltip("Which map to transport to")]
+    public TransitionLocation transitionLocation;
     [Tooltip("What should trigger the transition to start.")]
     public TransitionWhen transitionWhen;
     [Tooltip("The player will lose control when the transition happens but should the axis and button values reset to the default when control is lost.")]
@@ -42,6 +46,7 @@ public class TransitionPoint : MonoBehaviour
     //public InventoryController inventoryController;
     //[Tooltip("The required items.")]
     //public InventoryController.InventoryChecker inventoryCheck;
+    private Vector3 destinationTransform;
 
     bool m_TransitioningGameObjectPresent;
 
@@ -51,8 +56,11 @@ public class TransitionPoint : MonoBehaviour
     {
         //if (transitionWhen == TransitionWhen.ExternalCall)
         //    m_TransitioningGameObjectPresent = true;
-        Vector3[] vector3;
-        vector3[0]
+        
+        locations[0] = new Vector3(-0.16f,9.54f,0f);
+        locations[1] = new Vector3(-17.2f, 0.32f, 0.37f);
+        locations[2] = new Vector3(19.38f, 12.72f, 0f);
+
 
     }
 
@@ -67,7 +75,7 @@ public class TransitionPoint : MonoBehaviour
 
         if (transitionWhen == TransitionWhen.InteractPressed)
         {
-            if (Input.GetMouseButtonDown(0)) // (PlayerInput.Instance.Interact.Down)
+            if (Input.GetKey(KeyCode.E)) // (PlayerInput.Instance.Interact.Down)
             {
                 Debug.Log("Left click");
                 TransitionInternal();
@@ -110,10 +118,29 @@ public class TransitionPoint : MonoBehaviour
         //        return;
         //}
 
+        if (transitionLocation == TransitionLocation.HQ)
+        {
+            destinationTransform = locations[0];
+
+        }
+
+        if (transitionLocation == TransitionLocation.Village)
+        {
+            destinationTransform = new Vector3(-17.2f, 0.32f, 0.37f);
+
+        }
+
+        if (transitionLocation == TransitionLocation.OddballHouse)
+        {
+            destinationTransform = locations[2];
+
+        }
+
+
         if (transitionType == TransitionType.SameScene)
         {
             Debug.Log("transitioning");
-            Teleport(transitioningGameObject, destinationTransform.transform);
+            Teleport(transitioningGameObject, destinationTransform);
         }
         //else
         //{
@@ -130,10 +157,10 @@ public class TransitionPoint : MonoBehaviour
             TransitionInternal();
     }
 
-    public static void Teleport(GameObject transitioningGameObject, Transform destination)
+    public static void Teleport(GameObject transitioningGameObject, Vector3 destination)
     {
         Debug.Log("teleporting");
-        transitioningGameObject.transform.position = destination.position;
+        transitioningGameObject.transform.position = destination;
     }
 
 
