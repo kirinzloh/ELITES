@@ -36,8 +36,8 @@ public class LionelController : MonoBehaviour {
         isAttacking = false;
         isMoving = false;
 
-        jumpProc = Random.Range(0, 1);
-        mirrorImageProc = Random.Range(0, 500);
+        jumpProc = Random.Range(0, 200);
+        mirrorImageProc = Random.Range(0, 450);
 
         jumpTimeStamp = 0;
         mirrorImageTimeStamp = 0;
@@ -70,7 +70,7 @@ public class LionelController : MonoBehaviour {
         else
         {
             isMoving = false;
-            if (Vector3.Distance(transform.position, player.position) >= 0.5 && !clone && Random.Range(0, 500) == mirrorImageProc && mirrorImageTimeStamp <= Time.time)
+            if (Vector3.Distance(transform.position, player.position) >= 0.5 && !clone && Random.Range(0, 450) == mirrorImageProc && mirrorImageTimeStamp <= Time.time)
             {
                 agent.speed = 0;
                 mirrorImageTimeStamp = Time.time + mirrorImageCD;
@@ -127,7 +127,7 @@ public class LionelController : MonoBehaviour {
             }
             else if (Vector3.Distance(transform.position, player.position) <= 10)
             {
-                if (Vector3.Distance(transform.position, player.position) <= 3 && Random.Range(0, 1) == jumpProc && jumpTimeStamp <= Time.time && !clone)
+                if (Vector3.Distance(transform.position, player.position) <= 3 && Random.Range(0, 200) == jumpProc && jumpTimeStamp <= Time.time && !clone)
                 {
                     agent.speed = 0;
                     jumpTimeStamp = Time.time + jumpCD;
