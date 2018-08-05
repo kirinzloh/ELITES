@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4476354450457128}
   - component: {fileID: 61235423779139798}
-  - component: {fileID: 114796298620531766}
+  - component: {fileID: 114644368825680704}
   m_Layer: 0
   m_Name: TransitionStart
   m_TagString: Untagged
@@ -66,7 +66,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.29371566, y: 0.48780918}
   m_EdgeRadius: 0
---- !u!114 &114796298620531766
+--- !u!114 &114644368825680704
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,8 +77,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1bf1e222698de42bcd3bf5c1c44ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
   transitioningGameObject: {fileID: 0}
   transitionType: 0
-  destinationTransform: {fileID: 0}
+  transitionLocation: 0
   transitionWhen: 0
   resetInputValuesOnTransition: 1
