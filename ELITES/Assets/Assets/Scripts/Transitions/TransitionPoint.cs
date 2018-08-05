@@ -5,7 +5,6 @@ using UnityEngine;
 public class TransitionPoint : MonoBehaviour
 {
     
-    
     // code from 2D Gamekit (Unity tutorial)
     public enum TransitionType
     {
@@ -26,6 +25,7 @@ public class TransitionPoint : MonoBehaviour
 
     [Tooltip("This is the gameobject that will transition.  For example, the player.")]
     public GameObject transitioningGameObject;
+    PlayerProgression playerProgression;
 
     [Tooltip("Whether the transition will be within this scene, to a different zone or a non-gameplay scene.")]
     public TransitionType transitionType;
@@ -53,7 +53,7 @@ public class TransitionPoint : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-    
+        playerProgression = transitioningGameObject.GetComponent<PlayerProgression>();
 
     }
 
@@ -68,7 +68,7 @@ public class TransitionPoint : MonoBehaviour
 
         if (transitionWhen == TransitionWhen.InteractPressed)
         {
-            if (Input.GetKey(KeyCode.E)) // (PlayerInput.Instance.Interact.Down)
+            if (Input.GetKey(KeyCode.E) && playerProgression.getQuestLevel() >= 1) // (PlayerInput.Instance.Interact.Down)
             {
                 Debug.Log("Interact Open");
                 TransitionInternal();
@@ -130,10 +130,11 @@ public class TransitionPoint : MonoBehaviour
 
     }
 
-    public static void Teleport(GameObject transitioningGameObject, TransitionPoint destination)
+    public void Teleport(GameObject transitioningGameObject, TransitionPoint destination)
     {
         Debug.Log("teleporting");
         transitioningGameObject.transform.position = destination.transform.position;
+        
     }
 
 
