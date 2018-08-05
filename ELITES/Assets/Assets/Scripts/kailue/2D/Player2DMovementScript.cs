@@ -6,20 +6,33 @@ public class Player2DMovementScript : MonoBehaviour {
 
     private float movementSpeed = 2f;
 
+    AudioSource footstep;
     Vector3 movement;
     Animator anim;
     Vector3 side;
 
+    bool f_Play = false;
+
 
     void Start()
     {
+        footstep = this.GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
+        //bool f_Play = false;
     }
 
 
     void Update()
     {
-
+        if (f_Play==true && !footstep.isPlaying)
+        {
+            footstep.Play();
+        }
+        else
+        {
+            footstep.Stop();
+        }
+        
     }
 
 
@@ -63,5 +76,13 @@ public class Player2DMovementScript : MonoBehaviour {
     {
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
+        if (walking == true)
+        {
+            f_Play = true;
+        }
+        else
+        {
+            f_Play = false;
+        }
     }
 }

@@ -6,6 +6,9 @@ public class PlayerMovementScript : MonoBehaviour {
     
     private float movementSpeed = 2f;
 
+    AudioSource footstep;
+   
+
     Transform sprite;
     Vector3 movement;
     Animator anim;
@@ -16,7 +19,9 @@ public class PlayerMovementScript : MonoBehaviour {
         sprite = transform.GetChild(0);
         sprite.Rotate(90, 0, 0);
 
+        footstep = this.GetComponent<AudioSource>();
         anim = sprite.GetComponent<Animator>();
+        
 	}
 
 	
@@ -65,5 +70,13 @@ public class PlayerMovementScript : MonoBehaviour {
     {
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
+        if (walking == true)
+        {
+            footstep.Play();
+        }
+        else
+        {
+            footstep.Stop();
+        }
     }
 }

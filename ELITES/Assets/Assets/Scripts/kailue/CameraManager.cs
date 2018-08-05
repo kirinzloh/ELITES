@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour {
 
     public Camera[] cameraArray;
+    public GameObject[] players;
+    public Transform[] playerSpawnPoints; 
 
 	// Use this for initialization
 	void Start () {
@@ -26,5 +28,18 @@ public class CameraManager : MonoBehaviour {
         Debug.Log("Camera changed");
         cameraArray[0].enabled = !cameraArray[0].enabled;
         cameraArray[1].enabled = !cameraArray[1].enabled;
+    }
+
+    public void SetCamera(int world, int map)
+    {
+        cameraArray[0].enabled = false;
+        cameraArray[1].enabled = false;
+
+        cameraArray[world].transform.Translate(playerSpawnPoints[map].position);
+    }
+
+    public void SetPlayerPosition(int world, int map)
+    {
+        players[world].transform.Translate(playerSpawnPoints[map].position);
     }
 }
