@@ -42,7 +42,7 @@ public class GaleMovement : MonoBehaviour {
     }
     void Movement()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
             // rigidbody.AddForce(new Vector3 (1000.0f,0,0));
             rigidBody.MovePosition(transform.position + transform.right * moveSpeed * Time.deltaTime);
@@ -55,7 +55,7 @@ public class GaleMovement : MonoBehaviour {
             // var ForwardBack = false;
             // transform.eulerAngles = new Vector3(0,0,0);
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A))
         {
             rigidBody.MovePosition(transform.position - transform.right * moveSpeed * Time.deltaTime);
             // rigidBody.velocity = new Vector3 (-moveSpeed, rigidBody.velocity.y, rigidBody.velocity.z);
@@ -67,7 +67,7 @@ public class GaleMovement : MonoBehaviour {
             // var ForwardBack = false;
             // transform.eulerAngles = new Vector3(0,0,0);
         }
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.W))
         {
             rigidBody.MovePosition(transform.position + transform.up * moveSpeed * Time.deltaTime);
             // animator.SetBool("walk", true);
@@ -78,7 +78,7 @@ public class GaleMovement : MonoBehaviour {
             // var ForwardBack = true;
             // transform.eulerAngles = new Vector3(0,0,0);
         }
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.S))
         {
             rigidBody.MovePosition(transform.position - transform.up * moveSpeed * Time.deltaTime);
             Debug.Log("forward");
