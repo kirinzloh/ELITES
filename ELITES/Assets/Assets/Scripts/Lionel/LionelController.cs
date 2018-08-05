@@ -166,7 +166,7 @@ public class LionelController : MonoBehaviour {
                         {
                             isMoving = true;
                             lionelSprite.GetComponent<Animator>().SetBool("Move", true);
-                            agent.speed = 1f;
+                            agent.speed = moveSpeed;
                         }
                         agent.SetDestination(player.position);
                     }
@@ -193,5 +193,15 @@ public class LionelController : MonoBehaviour {
             c.transform.Rotate(new Vector3(0, 180, 0), Space.Self);
         }
         lionelSprite.GetComponent<SpriteRenderer>().flipX = !lionelSprite.GetComponent<SpriteRenderer>().flipX;
+    }
+
+    void TakeDamage(int dmg)
+    {
+        health -= dmg;
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }   
