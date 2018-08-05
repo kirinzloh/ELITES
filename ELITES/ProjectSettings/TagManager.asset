@@ -8,6 +8,7 @@ TagManager:
   - BlankEnemy
   - BlankSprite
   - EnemyWeapon
+  - Audio
   layers:
   - Default
   - TransparentFX
