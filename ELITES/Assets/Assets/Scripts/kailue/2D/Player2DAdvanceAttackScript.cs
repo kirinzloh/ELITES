@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Player2DAdvanceAttackScript : MonoBehaviour
 {
-
+    
+    public Transform attackPoint;
+    public LayerMask layerAttack;
+    public float attackRange;
+    public int attackDamage;
     private float timeBetweenAttack = 0.50f;
 
     Animator anim;
@@ -23,32 +27,51 @@ public class Player2DAdvanceAttackScript : MonoBehaviour
         if (Input.GetButton("Fire1") && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("AttackLeft");
-            timer = 0f;
+            Attack();
         }
         else if (Input.GetButton("Fire2") && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("AttackRight");
-            timer = 0f;
+            Attack();
         }
         else if (Input.GetKeyDown(KeyCode.Q) && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("TrueStrike");
-            timer = 0f;
+            Attack();
         }
         else if (Input.GetKeyDown(KeyCode.E) && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("Cleave");
-            timer = 0f;
+            Attack();
         }
         else if (Input.GetKeyDown(KeyCode.R) && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("Stun");
-            timer = 0f;
+            Attack();
         }
         else if (Input.GetKeyDown(KeyCode.F) && timer >= timeBetweenAttack && Time.timeScale != 0)
         {
             //anim.SetTrigger("HyperSpeed");
-            timer = 0f;
+            Attack();
         }
+    }
+
+    private void Attack()
+    {
+        timer = 0f;
+
+        Collider2D[] enemyInRange = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, layerAttack);
+        for (int i = 0; i < enemyInRange.Length; i++)
+        {
+            enemyInRange[i].GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            Debug.Log("enemy damaged");
+        }
+
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
