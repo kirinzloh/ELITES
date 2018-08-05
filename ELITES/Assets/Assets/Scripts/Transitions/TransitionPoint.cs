@@ -11,6 +11,11 @@ public class TransitionPoint : MonoBehaviour
         to3D, to2D, SameScene, DifferentNonGameplayScene,
     }
 
+    public enum TransitionLocation
+    {
+        HQ, Village, OddballHouse, OddballBasement, OddballBoss, Nightmare, MonsterNest
+    }
+
 
     public enum TransitionWhen
     {
@@ -46,6 +51,9 @@ public class TransitionPoint : MonoBehaviour
     {
         //if (transitionWhen == TransitionWhen.ExternalCall)
         //    m_TransitioningGameObjectPresent = true;
+        Vector3[] vector3;
+        vector3[0]
+
     }
 
     // Update is called once per frame
