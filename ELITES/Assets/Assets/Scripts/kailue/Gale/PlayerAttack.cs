@@ -79,7 +79,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] enemyInRange = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, layerAttack);
         for(int i = 0; i < enemyInRange.Length; i++)
         {
-            enemyInRange[i].GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            enemyInRange[i].transform.parent.GetComponent<EnemyHealthController>().TakeDamage(attackDamage);
             Debug.Log("enemy damaged");
             break;
         }
@@ -93,7 +93,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] enemyInRange = Physics2D.OverlapCircleAll(attackPoint.position, trueStrikeRange, layerAttack);
         for (int i = 0; i < enemyInRange.Length; i++)
         {
-            enemyInRange[i].GetComponent<EnemyHealth>().TakeDamage(trueStrikeDamage);
+            enemyInRange[i].transform.parent.GetComponent<EnemyHealthController>().TakeDamage(trueStrikeDamage);
             Debug.Log("enemy damaged");
         }
 
@@ -118,7 +118,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] enemyInRange = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, layerAttack);
         for (int i = 0; i < enemyInRange.Length; i++)
         {
-            enemyInRange[i].GetComponent<EnemyHealth>().TakeDamage(stunDamage);
+            enemyInRange[i].transform.parent.GetComponent<EnemyHealthController>().TakeDamage(stunDamage);
             Debug.Log("enemy damaged");
         }
 
