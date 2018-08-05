@@ -17,6 +17,8 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPoint;
     public LayerMask layerAttack;
     public float attackRange;
+
+    private SFXManager sfxMan;
     
 
     Animator anim;
@@ -29,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
     void Update()
@@ -44,26 +46,36 @@ public class PlayerAttack : MonoBehaviour
         {
             anim.SetTrigger("AttackLeft");
             BasicAttack();
+
+            sfxMan.playerAtt.PlayDelayed(0.2f);
         }
         else if (Input.GetButton("Fire2") && attackTimer >= timeBetweenAttack && Time.timeScale != 0)
         {
             anim.SetTrigger("AttackRight");
             BasicAttack();
+
+            sfxMan.playerAtt.PlayDelayed(0.2f);
         }
         else if (Input.GetKeyDown(KeyCode.Q) && trueStrikeTimer >= trueStrikeCD && Time.timeScale != 0)
         {
             anim.SetTrigger("TrueStrike");
             TrueStrike();
+
+            sfxMan.playerTrueStrike.Play();
         }
         else if (Input.GetKeyDown(KeyCode.E) && cleaveTimer >= cleaveCD && Time.timeScale != 0)
         {
             anim.SetTrigger("Cleave");
             Cleave();
+
+            sfxMan.playerCleave.Play();
         }
         else if (Input.GetKeyDown(KeyCode.R) && stunTimer >= stunCD && Time.timeScale != 0)
         {
             anim.SetTrigger("Stun");
             Stun();
+
+            sfxMan.playerStun.PlayDelayed(0.3f);
         }
         else if (Input.GetKeyDown(KeyCode.F) && hyperspeedTimer >= hyperspeedCD && Time.timeScale != 0)
         {

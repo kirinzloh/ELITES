@@ -20,6 +20,7 @@ public class SkeletonBodyController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        print("hi");
         if (other.gameObject.tag == "Player")
         {
             other.transform.GetComponent<PlayerHealth>().TakeDamage(hitDmg);

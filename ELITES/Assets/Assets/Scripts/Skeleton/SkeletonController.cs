@@ -12,12 +12,14 @@ public class SkeletonController : MonoBehaviour
 
     private Transform player;
     private Rigidbody2D skeletonRigidbody;
+    private SFXManager sfxMan;
 
     // Use this for initialization
     void Start()
     {
         player = PlayerManager.instance.player.transform;
         skeletonRigidbody = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         isAttacking = false;
         isMoving = false;
@@ -44,6 +46,7 @@ public class SkeletonController : MonoBehaviour
                     isMoving = false;
                     skeletonRigidbody.velocity = new Vector3(0, 0, 0);
                     isAttacking = true;
+                    sfxMan.skeletonAtt.PlayDelayed(0.5f);
                     GetComponent<Animator>().SetBool("Attack", isAttacking);
                     GetComponent<Animator>().SetBool("Move", isMoving);
                 }
@@ -78,5 +81,10 @@ public class SkeletonController : MonoBehaviour
     {
         isAttacking = false;
         GetComponent<Animator>().SetBool("Attack", isAttacking);
+    }
+
+    void PlayDeathSound()
+    {
+        sfxMan.skeletonDie.Play();
     }
 }

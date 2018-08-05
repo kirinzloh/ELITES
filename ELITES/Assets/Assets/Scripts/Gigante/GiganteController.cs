@@ -7,19 +7,20 @@ public class GiganteController : MonoBehaviour
 {
     public float moveSpeed;
     public string direction;
-    public int health;
     
     public bool isAttacking;
     public bool isMoving;
 
     private Transform player;
     private Rigidbody2D giganteRigidbody;
+    private SFXManager sfxMan;
 
     // Use this for initialization
     void Start()
     {
         player = PlayerManager.instance.player.transform;
         giganteRigidbody = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         isAttacking = false;
         isMoving = false;
@@ -40,11 +41,12 @@ public class GiganteController : MonoBehaviour
                 float xDiff = player.transform.position.x - transform.position.x;
                 float yDiff = player.transform.position.y - transform.position.y;
 
-                if (Mathf.Abs(xDiff) <= 0.8 && Mathf.Abs(yDiff) <= 0.3)
+                if (Mathf.Abs(xDiff) <= 0.9 && Mathf.Abs(yDiff) <= 0.4)
                 {
                     isMoving = false;
                     giganteRigidbody.velocity = new Vector3(0, 0, 0);
                     isAttacking = true;
+                    sfxMan.giganteFire.PlayDelayed(0.5f);
                     GetComponent<Animator>().SetBool("Attack", true);
                 }
                 else
@@ -79,12 +81,8 @@ public class GiganteController : MonoBehaviour
         isAttacking = false;
     }
 
-    public void TakeDamage(int dmg)
+    void PlayDeathSound()
     {
-        health -= dmg;
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        sfxMan.giganteDie.Play();
     }
 }

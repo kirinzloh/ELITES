@@ -17,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
     bool isDead;
     //bool damaged;
 
+    private SFXManager sfxMan;
+
 
     void Start()
     {
@@ -24,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerAttacking = GetComponent<PlayerAttack>();
         currentHealth = startingHealth;
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
 
@@ -49,6 +52,10 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0 && !isDead)
         {
             Death();
+        }
+        else
+        {
+            sfxMan.playerDamaged.Play();
         }
     }
 

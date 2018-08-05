@@ -23,11 +23,13 @@ public class LionelController : MonoBehaviour {
 
     private Transform player;
     private Rigidbody2D lionelRigidbody;
+    private SFXManager sfxMan;
 
     // Use this for initialization
     void Start () {
         player = PlayerManager.instance.player.transform;
         lionelRigidbody = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         isJumping = false;
         isAttacking = false;
@@ -85,6 +87,7 @@ public class LionelController : MonoBehaviour {
                 mirrorImagesPositions.Add(position2);
                 mirrorImagesPositions.Add(position3);
 
+                sfxMan.lionelClone.Play();
                 int randomPosition = Random.Range(0, 2);
                 GameObject image1 = Instantiate(lionelPrefab);
                 image1.GetComponent<Transform>().position = new Vector3(mirrorImagesPositions[randomPosition].x, mirrorImagesPositions[randomPosition].y, transform.position.z);
@@ -107,6 +110,7 @@ public class LionelController : MonoBehaviour {
                 {
                     lionelRigidbody.velocity = new Vector3(0, 0, 0);
                     jumpTimeStamp = Time.time + jumpCD;
+                    sfxMan.lionelBomb.Play();
                     isMoving = false;
                     GetComponent<Animator>().SetBool("Move", isMoving);
                     isJumping = true;
@@ -122,6 +126,7 @@ public class LionelController : MonoBehaviour {
                         isMoving = false;
                         lionelRigidbody.velocity = new Vector3(0, 0, 0);
                         isAttacking = true;
+                        sfxMan.lionelAtt.Play();
                         GetComponent<Animator>().SetBool("Attack", isAttacking);
                         GetComponent<Animator>().SetBool("Move", isMoving);
                     }
@@ -169,5 +174,10 @@ public class LionelController : MonoBehaviour {
     {
         GameObject ss = Instantiate(ssPrefab);
         ss.GetComponent<Transform>().position = new Vector3(player.position.x, player.position.y, player.position.z);
+    }
+
+    void PlayDeathSound()
+    {
+        sfxMan.lionelDie.Play();
     }
 }   

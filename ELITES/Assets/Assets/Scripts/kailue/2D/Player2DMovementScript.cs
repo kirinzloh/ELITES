@@ -22,7 +22,7 @@ public class Player2DMovementScript : MonoBehaviour {
     }
 
 
-    void Update()
+    /*void Update()
     {
         if (f_Play==true && !footstep.isPlaying)
         {
@@ -33,7 +33,7 @@ public class Player2DMovementScript : MonoBehaviour {
             footstep.Stop();
         }
         
-    }
+    }*/
 
 
     private void FixedUpdate()
