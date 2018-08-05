@@ -8,7 +8,7 @@ public class TransitionPoint : MonoBehaviour
     // code from 2D Gamekit (Unity tutorial)
     public enum TransitionType
     {
-        to3D, to2D, SameScene, DifferentNonGameplayScene,
+        DifferentZone, DifferentNonGameplayScene, SameScene,
     }
 
     public enum TransitionLocation
@@ -67,7 +67,7 @@ public class TransitionPoint : MonoBehaviour
 
         if (transitionWhen == TransitionWhen.InteractPressed)
         {
-            if (Input.GetKey(KeyCode.E)) // (PlayerInput.Instance.Interact.Down)
+            if (Input.GetMouseButtonDown(0)) // (PlayerInput.Instance.Interact.Down)
             {
                 Debug.Log("Left click");
                 TransitionInternal();
@@ -109,21 +109,6 @@ public class TransitionPoint : MonoBehaviour
         //    if (!inventoryCheck.CheckInventory(inventoryController))
         //        return;
         //}
-
-        if (transitionType == TransitionType.to3D)
-            {
-                Debug.Log("transitioning to 3D scene");
-                Teleport(transitioningGameObject, destinationTransform.transform);
-                transitioningGameObject.transform.eulerAngles = new Vector3(90, 0, 0);
-        }
-
-        if (transitionType == TransitionType.to2D)
-        {
-            Debug.Log("transitioning to 2D scene");
-            Teleport(transitioningGameObject, destinationTransform.transform);
-            transitioningGameObject.transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-
 
         if (transitionType == TransitionType.SameScene)
         {
