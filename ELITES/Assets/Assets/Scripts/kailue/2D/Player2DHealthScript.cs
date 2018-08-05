@@ -12,7 +12,7 @@ public class Player2DHealthScript : MonoBehaviour {
 
     //Animator anim;
     Player2DMovementScript playerMovement;
-    Player2DAttackScript playerAttacking;
+    Player2DBasicAttackScript playerAttacking;
     bool isDead;
     //bool damaged;
 
@@ -21,7 +21,7 @@ public class Player2DHealthScript : MonoBehaviour {
     {
         //anim = GetComponent<Animator>();
         playerMovement = GetComponent<Player2DMovementScript>();
-        playerAttacking = GetComponent<Player2DAttackScript>();
+        playerAttacking = GetComponent<Player2DBasicAttackScript>();
         currentHealth = startingHealth;
     }
 

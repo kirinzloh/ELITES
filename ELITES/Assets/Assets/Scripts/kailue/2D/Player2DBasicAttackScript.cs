@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttackScript : MonoBehaviour {
+public class Player2DBasicAttackScript : MonoBehaviour {
 
     private float timeBetweenAttack = 0.50f;
 
     Animator anim;
     float timer;
-    
+
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        anim = GetComponent<Animator>();
 
     }
-    
+
     void Update()
     {
         timer += Time.deltaTime;
