@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
+
     // Use this for initialization
     void Start()
     {
@@ -51,7 +52,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence (string sentence)
     {
         dialogueText.text = "";
-        foreach (char letter in sentence)
+        foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(text_delay);
