@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 7bc0dde69ab7c7c4b8ae72754336742e
+guid: 04c8819593b562d4da5dfc23f155362d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: balls_0
-    21300002: balls_1
-    21300004: balls_2
-    21300006: balls_3
-    21300008: balls_4
-    21300010: balls_5
-    21300012: balls_6
-    21300014: balls_7
-    21300016: balls_8
-    21300018: balls_9
+    21300000: explosion-4_0
+    21300002: explosion-4_12
+    21300004: explosion-4_1
+    21300006: explosion-4_2
+    21300008: explosion-4_3
+    21300010: explosion-4_4
+    21300012: explosion-4_5
+    21300014: explosion-4_6
+    21300016: explosion-4_7
+    21300018: explosion-4_8
+    21300020: explosion-4_9
+    21300022: explosion-4_10
+    21300024: explosion-4_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -44,8 +47,8 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
   nPOTScale: 0
   lightmap: 0
@@ -55,13 +58,13 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -105,13 +108,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: balls_0
+      name: explosion-4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 1408
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dae913c143c83b4d96caefbd866e0d2
+      spriteID: 37ff0adf0a17a86478825879b9e2aa27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_1
+      name: explosion-4_12
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 543
+        y: 125
+        width: 17
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,19 +142,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 034dbceef02897d4da77eb2f706d79d5
+      spriteID: 3c10a1279b5743c41840636a36574fd1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_2
+      name: explosion-4_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 1281
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,19 +162,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fba4ab829d493d34fa716e57ecce0381
+      spriteID: fa1d0a544903c7e4ba728c924906476a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_3
+      name: explosion-4_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 1152
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,19 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f425b069413417f4eaf09530176c61d1
+      spriteID: 6f69c7c8e6e26974e8af4e7ef2431c72
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_4
+      name: explosion-4_3
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 1025
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,19 +202,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1f311375a81134ba5c8d27a3af6685
+      spriteID: caede866a830fd049b13bbac965dd8d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_5
+      name: explosion-4_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 896
+        y: 1
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f77f33faa8cc8c47ab8a0b851912af3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-4_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa89dd2ee59b74e8ee27be8c7268f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-4_6
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 4
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330df0b1462bb0042aa8e6d97a9dbeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-4_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cd6e25aefdccb41bfeccaefb1aa081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-4_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8085e354c6e7499e07ec815b3f817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-4_9
+      rect:
+        serializedVersion: 2
+        x: 257
         y: 0
-        width: 64
-        height: 64
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,19 +322,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af379728386024c4da4c91925508f12c
+      spriteID: 7f58ffc76559ae842ab0526269aa49cf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_6
+      name: explosion-4_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 132
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,19 +342,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ec13dadff637914694231e59126777a
+      spriteID: 2bb01545e704ac948bdcc992fe94c9aa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balls_7
+      name: explosion-4_11
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 3
+        y: 1
+        width: 123
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,47 +362,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c2b1a9cddfaad46af1952d01c4f8cf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: balls_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68d5a39df158bd045afb662625ab82aa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: balls_9
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85ea75669544a1b4cb1586dabe251e08
+      spriteID: 038a98efa7db3554384f9f95b27ad360
       vertices: []
       indices: 
       edges: []
@@ -307,7 +370,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7e4ba04296293d44b8731ec29fc048dc
+    spriteID: d02d15f27c3db034eadc37062c84cf3b
     vertices: []
     indices: 
     edges: []
