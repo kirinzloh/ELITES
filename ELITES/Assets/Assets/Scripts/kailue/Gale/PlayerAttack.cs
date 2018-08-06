@@ -14,6 +14,7 @@ public class PlayerAttack : MonoBehaviour
     public int stunDamage;
     public float stunCD;
     public float hyperspeedCD;
+    public float hyperspeedDuration;
     public Transform attackPoint;
     public LayerMask layerAttack;
     public float attackRange;
@@ -41,6 +42,14 @@ public class PlayerAttack : MonoBehaviour
         cleaveTimer += Time.deltaTime;
         stunTimer += Time.deltaTime;
         hyperspeedTimer += Time.deltaTime;
+
+        if (hyperspeedTimer < hyperspeedDuration)
+        {
+            attackTimer = 15;
+            trueStrikeTimer = 15;
+            cleaveTimer = 15;
+            stunTimer = 15;
+        }
 
         if (Input.GetButton("Fire1") && attackTimer >= timeBetweenAttack && Time.timeScale != 0)
         {
@@ -80,7 +89,7 @@ public class PlayerAttack : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.F) && hyperspeedTimer >= hyperspeedCD && Time.timeScale != 0)
         {
             //anim.SetTrigger("HyperSpeed");
-            //Attack();
+            hyperspeedTimer = 0f;
         }
     }
 

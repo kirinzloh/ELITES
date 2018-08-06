@@ -1,9 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    private float currentEnergy = 100;
+
+    [SerializeField]
+    private Image hpBar;
+    [SerializeField]
+    private Image energyBar;
+    private float maxEnergy = 100;
 
     public int startingHealth = 100;
     public int currentHealth;
@@ -32,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
+        HandleBar();
         //if (damaged)
         //{
         //    damageImage.color = flashColour;
@@ -68,5 +77,16 @@ public class PlayerHealth : MonoBehaviour
         playerAttacking.enabled = false;
         Destroy(gameObject, 2f);
         Debug.Log("Player Dead");
+    }
+
+    private void HandleBar()
+    {
+        hpBar.fillAmount = Map(currentHealth, startingHealth);
+        energyBar.fillAmount = Map(currentEnergy, maxEnergy);
+    }
+
+    private float Map(float current, float max)
+    {
+        return (current / max);
     }
 }

@@ -26,6 +26,8 @@ public class TransitionPoint : MonoBehaviour
 
     [Tooltip("This is the gameobject that will transition.  For example, the player.")]
     public GameObject transitioningGameObject;
+    public PlayerManager playerManager;
+    public GameObject skeletonSpawnPoint;
 
     [Tooltip("Whether the transition will be within this scene, to a different zone or a non-gameplay scene.")]
     public TransitionType transitionType;
@@ -68,7 +70,7 @@ public class TransitionPoint : MonoBehaviour
 
         if (transitionWhen == TransitionWhen.InteractPressed)
         {
-            if (Input.GetKey(KeyCode.E)) // (PlayerInput.Instance.Interact.Down)
+            if (Input.GetKey(KeyCode.Space) && playerManager.getTransitionPermission()) // (PlayerInput.Instance.Interact.Down)
             {
                 Debug.Log("Interact Open");
                 TransitionInternal();
@@ -130,10 +132,16 @@ public class TransitionPoint : MonoBehaviour
 
     }
 
-    public static void Teleport(GameObject transitioningGameObject, TransitionPoint destination)
+    public void Teleport(GameObject transitioningGameObject, TransitionPoint destination)
     {
         Debug.Log("teleporting");
+        playerManager.switchTransition();
         transitioningGameObject.transform.position = destination.transform.position;
+        SpawnEnemy spawn = transform.GetComponent<SpawnEnemy>();
+        if (spawn != null)
+        {
+            spawn.enabled = true;
+        }
     }
 
 
