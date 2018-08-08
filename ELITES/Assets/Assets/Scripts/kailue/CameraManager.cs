@@ -12,7 +12,6 @@ public class CameraManager : MonoBehaviour {
 	void Start () {
         Debug.Log("Camera Manager started");
         cameraArray[0].enabled = true;
-        cameraArray[1].enabled = false;
 	}
 	
 	// Update is called once per frame

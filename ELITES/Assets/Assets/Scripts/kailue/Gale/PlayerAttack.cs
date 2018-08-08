@@ -127,7 +127,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] enemyInRange = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, layerAttack);
         for (int i = 0; i < enemyInRange.Length; i++)
         {
-            enemyInRange[i].GetComponent<EnemyHealth>().TakeDamage(cleaveDamage);
+            enemyInRange[i].transform.parent.GetComponent<EnemyHealthController>().TakeDamage(cleaveDamage);
             Debug.Log("enemy damaged");
         }
 
