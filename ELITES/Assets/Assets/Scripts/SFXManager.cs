@@ -18,6 +18,7 @@ public class SFXManager : MonoBehaviour {
     public AudioSource lionelBomb;
     public AudioSource lionelClone;
     public AudioSource lionelDie;
+    public AudioSource backgroundMusic;
 
     private static bool sfxmanExists;
     // Use this for initialization
