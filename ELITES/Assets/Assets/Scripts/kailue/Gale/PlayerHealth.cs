@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
     //Animator anim;
     PlayerMovement playerMovement;
     PlayerAttack playerAttacking;
-    bool isDead;
+    public bool isDead;
     //bool damaged;
 
     private SFXManager sfxMan;
@@ -75,7 +75,7 @@ public class PlayerHealth : MonoBehaviour
 
         playerMovement.enabled = false;
         playerAttacking.enabled = false;
-        Destroy(gameObject, 2f);
+        //Destroy(gameObject, 2f);
         Debug.Log("Player Dead");
     }
 

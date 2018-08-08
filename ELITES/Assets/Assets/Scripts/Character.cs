@@ -35,14 +35,15 @@ public class Character : MonoBehaviour {
     {
         if (PlayerManager.instance.getQuestLevel() == 1 && QuestManager.instance.dialogueEnded && isQuest)
         {
-            QuestManager.instance.currentQuest.isCompleted = true;
             animator.SetInteger("stage", stage);
             QuestManager.instance.dialogueEnded = false;
+            QuestManager.instance.currentQuest.isCompleted = true;
         }
         if (PlayerManager.instance.getQuestLevel() == 4 && QuestManager.instance.dialogueEnded && isQuest)
         {
             animator.SetInteger("stage", stage);
             QuestManager.instance.dialogueEnded = false;
+            QuestManager.instance.currentQuest.isCompleted = true;
         }
     }
 

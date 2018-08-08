@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class AudioScript : MonoBehaviour {
 
     [SerializeField]
     private Image volumeBar;
 
-    private AudioSource audioSrc;
+    public AudioMixer mixer;
 
-    private float musicVolume = 1f;
+    private float musicVolume;
 
     void Start()
     {
-        audioSrc = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioSource>();
+        
     }
 
     void Update()
     {
-        audioSrc.volume = musicVolume;
+        mixer.SetFloat("musicVol", Mathf.Log(musicVolume) * 20);
     }
-
 
     public void VolumeChange(float newVolume)
     {

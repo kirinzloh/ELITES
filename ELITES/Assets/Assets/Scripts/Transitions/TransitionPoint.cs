@@ -21,7 +21,7 @@ public class TransitionPoint : MonoBehaviour
 
     public enum TransitionWhen
     {
-        InteractPressed, OnTriggerEnter
+        InteractPressed, OnTriggerEnter, Automatic
     }
 
     [Tooltip("This is the gameobject that will transition.  For example, the player.")]
@@ -67,7 +67,7 @@ public class TransitionPoint : MonoBehaviour
         if (!m_TransitioningGameObjectPresent)
             return;
 
-        if (transitionWhen == TransitionWhen.InteractPressed && questLevel == PlayerManager.instance.getQuestLevel())
+        if (transitionWhen == TransitionWhen.InteractPressed && questLevel <= PlayerManager.instance.getQuestLevel())
         {
             if (Input.GetKey(KeyCode.Space) && PlayerManager.instance.getTransitionPermission()) // (PlayerInput.Instance.Interact.Down)
             {
@@ -76,6 +76,10 @@ public class TransitionPoint : MonoBehaviour
             }
         }
 
+        if (transitionWhen == TransitionWhen.Automatic && questLevel <= PlayerManager.instance.getQuestLevel())
+        {
+            TransitionInternal();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -88,7 +92,7 @@ public class TransitionPoint : MonoBehaviour
             //if (ScreenFader.IsFading || SceneController.Transitioning)
             //    return;
 
-            if (transitionWhen == TransitionWhen.OnTriggerEnter && questLevel == PlayerManager.instance.getQuestLevel())
+            if (transitionWhen == TransitionWhen.OnTriggerEnter && questLevel <= PlayerManager.instance.getQuestLevel())
                 TransitionInternal();
         }
     }
@@ -140,6 +144,7 @@ public class TransitionPoint : MonoBehaviour
         {
             spawn.enabled = true;
         }
+        Destroy(this);
     }
 
 

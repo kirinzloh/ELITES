@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SFXManager : MonoBehaviour {
+    public AudioMixer masterMixer;
     public AudioSource playerAtt;
     public AudioSource playerTrueStrike;
     public AudioSource playerCleave;
@@ -16,6 +18,7 @@ public class SFXManager : MonoBehaviour {
     public AudioSource lionelBomb;
     public AudioSource lionelClone;
     public AudioSource lionelDie;
+    public AudioSource background;
 
     private static bool sfxmanExists;
     // Use this for initialization
