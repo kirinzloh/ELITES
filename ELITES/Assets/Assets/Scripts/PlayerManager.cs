@@ -9,32 +9,44 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager instance;
     public int questLevel = 0;
     public bool transitionAllowed = false;
+    public GameObject player;
+
 
     void Awake()
     {
-        instance = this;
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
 
-    private void Update()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        bool inCutscene = QuestManager.instance.inCutscene;
+        bool inDialogue = DialogueManager.instance.inDialogue;
+        if (inCutscene || inDialogue)
         {
-            QuestCompleted();
+            player.GetComponent<PlayerAttack>().enabled = false;
+            player.GetComponent<PlayerMovement>().enabled = false;
+        }
+        else
+        {
+            player.GetComponent<PlayerAttack>().enabled = true;
+            player.GetComponent<PlayerMovement>().enabled = true;
         }
     }
 
     #endregion
 
-    public GameObject player;
-
     public void QuestCompleted()
     {
+        Debug.Log("Quest Complete");
         questLevel += 1;
         player.GetComponent<PlayerHealth>().currentHealth = player.GetComponent<PlayerHealth>().startingHealth;
-        if (questLevel >= 1)
-        {
-            player.GetComponent<PlayerAttack>().enabled = true;
-        }
         transitionAllowed = true;
     }
 
@@ -52,4 +64,6 @@ public class PlayerManager : MonoBehaviour
     {
         transitionAllowed = false;
     }
+
+    
 }

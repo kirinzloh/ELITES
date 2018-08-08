@@ -21,12 +21,11 @@ public class TransitionPoint : MonoBehaviour
 
     public enum TransitionWhen
     {
-        InteractPressed, OnTriggerEnter,
+        InteractPressed, OnTriggerEnter
     }
 
     [Tooltip("This is the gameobject that will transition.  For example, the player.")]
     public GameObject transitioningGameObject;
-    public PlayerManager playerManager;
     public GameObject skeletonSpawnPoint;
 
     [Tooltip("Whether the transition will be within this scene, to a different zone or a non-gameplay scene.")]
@@ -50,7 +49,7 @@ public class TransitionPoint : MonoBehaviour
     //private Vector3 destinationTransform;
 
     bool m_TransitioningGameObjectPresent;
-
+    public int questLevel;
 
     // Use this for initialization
     void Start()
@@ -68,15 +67,14 @@ public class TransitionPoint : MonoBehaviour
         if (!m_TransitioningGameObjectPresent)
             return;
 
-        if (transitionWhen == TransitionWhen.InteractPressed)
+        if (transitionWhen == TransitionWhen.InteractPressed && questLevel == PlayerManager.instance.getQuestLevel())
         {
-            if (Input.GetKey(KeyCode.Space) && playerManager.getTransitionPermission()) // (PlayerInput.Instance.Interact.Down)
+            if (Input.GetKey(KeyCode.Space) && PlayerManager.instance.getTransitionPermission()) // (PlayerInput.Instance.Interact.Down)
             {
                 Debug.Log("Interact Open");
                 TransitionInternal();
             }
         }
-
 
     }
 
@@ -90,7 +88,7 @@ public class TransitionPoint : MonoBehaviour
             //if (ScreenFader.IsFading || SceneController.Transitioning)
             //    return;
 
-            if (transitionWhen == TransitionWhen.OnTriggerEnter)
+            if (transitionWhen == TransitionWhen.OnTriggerEnter && questLevel == PlayerManager.instance.getQuestLevel())
                 TransitionInternal();
         }
     }
@@ -135,7 +133,7 @@ public class TransitionPoint : MonoBehaviour
     public void Teleport(GameObject transitioningGameObject, TransitionPoint destination)
     {
         Debug.Log("teleporting");
-        playerManager.switchTransition();
+        PlayerManager.instance.switchTransition();
         transitioningGameObject.transform.position = destination.transform.position;
         SpawnEnemy spawn = transform.GetComponent<SpawnEnemy>();
         if (spawn != null)

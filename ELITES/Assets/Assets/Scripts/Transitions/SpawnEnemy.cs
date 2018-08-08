@@ -18,7 +18,6 @@ public class SpawnEnemy : MonoBehaviour {
     {
         for (int i = 0; i < initialSpawn; i++)
         {
-
             Instantiate(enemy[i], spawnPoints[i].position, spawnPoints[i].rotation);
         }
 
@@ -27,13 +26,10 @@ public class SpawnEnemy : MonoBehaviour {
 
             InvokeRepeating("Spawn", spawnTime, spawnTime);
         }
-
     }
 
 
     void Spawn()
-
-
     {
         if (enemySpawned == enemy.Length)
         {
@@ -43,7 +39,5 @@ public class SpawnEnemy : MonoBehaviour {
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
         Instantiate(enemy[enemySpawned], spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
         enemySpawned += 1;
-
-
     }
 }

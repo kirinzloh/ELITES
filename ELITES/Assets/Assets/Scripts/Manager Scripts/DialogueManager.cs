@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager Instance { get; set; }
+    public static DialogueManager instance { get; set; }
 
     public Text nameText;
     public Text dialogueText;
@@ -14,24 +14,38 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
     private Queue<string> names;
+    private bool displayingSentence = false;
+    private string name;
+    private string sentence;
+
+    public List<Cutscene> cutscenesList;
+    public bool inDialogue = false;
     
     // Use this for initialization
     void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
         }
         else
         {
-            Instance = this;
+            instance = this;
             sentences = new Queue<string>();
             names = new Queue<string>();
         }
     }
 
+    public void StartCutscene(int index)
+    {
+        Cutscene cutscene = cutscenesList[index];
+        StartDialogue(cutscene.dialogue);
+    }
+
     public void StartDialogue(Dialogue dialogue)
     {
+        QuestManager.instance.dialogueEnded = false;
+        inDialogue = true;
         animator.SetBool("IsOpen", true);
     
         sentences.Clear();
@@ -51,34 +65,47 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (displayingSentence)
         {
-            EndDialogue();
-            return;
+            StopAllCoroutines();
+            dialogueText.text = sentence;
+            displayingSentence = false;
         }
+        else
+        {
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
 
-        string name = names.Dequeue();
-        dialogueText.name = name;
+            name = names.Dequeue();
+            nameText.text = name;
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+            sentence = sentences.Dequeue();
+            dialogueText.text = sentence;
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(sentence));
+        }
     }
 
     IEnumerator TypeSentence (string sentence)
     {
+        displayingSentence = true;
         dialogueText.text = "";
         foreach (char letter in sentence)
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(text_delay);
         }
+        displayingSentence = false;
     }
 
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        inDialogue = false;
+        QuestManager.instance.dialogueEnded = true;
      }
 
 }
